@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./style.css" rel='stylesheet'>
+        <title>HTML/CSS Cheatsheet</title>
+    </head>
+    <body>
+        <header>
+            <h1>HTML & CSS Cheatsheet</h1>
+        </header>
+        <main>
+            <section id='html'>
+                <h1>HTML</h1>
+                <article>
+                    <h2>HTML Element Syntax</h2>
+                    <figure>
+                        <img src="html element.png">
+                        <figcaption>Anatomy of a HTML element</figcaption>
+                    </figure>
+                    <p><b>Opening Tag</b> (start tag): Every element has a name which is included in the opening tag.</p>
+                    <p><b>Attribute and Value</b>: Attributes are different options that can be set for an element, every attribute has a value. Attributes can be used for different purposes such as classifying elements or providing link urls.</p>
+                    <p><b>Children</b> (content): The content of an element can either be text that will be displayed, or other elements.</p>
+                    <p><b>Closing Tag</b> (end tag): Every element must have a closing tag, which has a forward slash before the name of the element.</p>
+                </article>
+                <article>
+                    <h2>Basic Markup of a HTML page</h2>
+                    <figure>
+                        <img src="./html markup.png">
+                        <figcaption>Simple example of code in a HTML file.</figcaption>
+                    </figure>
+                </article>
+                <article class='wide'>
+                    <h2>Commonly Used Elements</h2>
+                    <table>
+                        <tr>
+                            <td><b>Headings</b></td>
+                            <td> &lt;h1&gt;, &lt;h2&gt;,..., &lt;h6&gt;</td>
+                            <td>There are 6 heading elements going from h1 to h6, with h1 being the largest heading and h6 the smallest.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Multimedia</b></td>
+                            <td>&lt;img/&gt;, &lt;video&gt;, &lt;audio&gt;</td>
+                            <td>Tags for adding multimedia elements to a page, img is a self closing tag but audio and video require a closing tag. Attribute src defines the content of the elements.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Lists</b></td>
+                            <td>&lt;ul&gt;,&lt;ol&gt;,&lt;li&gt;</td>
+                            <td>Use these tags for creating unordered lists, ordered (numbered) lists, and list elements.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Tables</b></td>
+                            <td>&lt;table&gt;,&lt;th&gt;,&lt;tr&gt;,&lt;td&gt;</td>
+                            <td>Create tables, add heading elements, rows and data to the table.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Separators</b></td>
+                            <td>&lt;hr&gt;,&lt;br&gt;</td>
+                            <td>Both are self closing tags used to separate elements with a horizontal line, or whitespace.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Sectioning</b></td>
+                            <td>&lt;header&gt;, &lt;main&gt;, &lt;footer&gt;, &lt;section&gt;, &lt;article&gt;, &lt;div&gt;, &lt;nav&gt;, &lt;figure&gt;</td>
+                            <td>Elements for creating different sections of a page.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Other</b></td>
+                            <td colspan="2"> &lt;a&gt;, &lt;p&gt;, &lt;link&gt;, &lt;title&gt;, &lt;b&gt;, &lt;figcaption&gt;</td>
+                        </tr>
+                    </table>
+                </article>
+            </section>
+            <section id='css'>
+                <h1>CSS</h1>
+                <article>
+                    <h2>CSS Syntax</h2>
+                    <figure>
+                        <img src="CSS-definition.png" width=400>
+                        <figcaption>Anatomy of a CSS statement</figcaption>
+                    </figure>
+                    <p><b>Selector</b> (p): the element that the CSS should be applied to</p>
+                    <p><b>Property and Value</b> (declaration): the styling that should be applied to the element.</p>
+                </article>
+                <article>
+                    <h2>Where to write CSS</h2>
+                    <figure>
+                        <img src="where to write css.jpeg" width=500>
+                        <figcaption>The 3 places CSS can be applied in a HTML document.</figcaption>
+                    </figure>
+                    <p>External CSS is the preferred method. You have a separate file containing CSS statements and provide a link to it in the head element of the HTML document.</p>
+                </article>
+                <br><br>
+                <article>
+                    <h2>CSS Selectors</h2>
+                    <p><b>Basic Selectors:</b></p>
+                    <p>elementname, .classname, #idname, [atrr=value]*</p>
+                    <p><b>Combinators:</b></p>
+                    <p>selectorA + selectorB, selectorA ~ selectorB, parent>child, parent descendant</p>
+                    <p><b>Pseudo Selectors:</b></p>
+                    <p>:active, :visited, :hover, :focus</p>
+                </article>
+                <article>
+                    <h2>CSS Properties</h2>
+                    <p><b>TEXT:</b>
+                        color,
+                        font,
+                        font-family,
+                        font-size,
+                        font-weight,
+                        letter-spacing,
+                        line-height,
+                        text-align,
+                        text-decoration,
+                        text-indent,
+                        text-transform,
+                        vertical-align</p>
+                    <p><b>LIST:</b>
+                        list-style,
+                        list-style-image,
+                        list-style-position,
+                        list-style-type</p>
+                    <p><b>BACKGROUND:</b>
+                        background,
+                        background-attachment,
+                        background-color,
+                        background-image,
+                        background-position,
+                        background-repeat</p>
+                    <p><b>DISPLAY:</b>
+                        display,
+                        float,
+                        clear,
+                        overflow,
+                        visibility</p>
+                    <p><b>BOX:</b>
+                        border,
+                        border-color,
+                        border-style,
+                        border-width,
+                        height,
+                        margin,
+                        padding,
+                        width,
+                        box-sizing
+                    </p>
+                    <p><b>POSITION:</b>
+                        position,
+                        top,
+                        bottom,
+                        left,
+                        right,
+                        z-index</p>
+                </article>
+            </section>
+        </main>
+        <br><br>
+        <footer>
+            <p><b>Author:</b> Casha Anderson</p>
+            <p><b>Contact Info:</b> 98andersonc@gmail.com</p>
+        </footer>
+    </body>
+</html>

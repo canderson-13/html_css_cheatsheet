@@ -1,0 +1,59 @@
+* {
+    font-family: Tahoma;  
+}
+
+body {
+    background-image: url("backgroundphoto.jpeg"); 
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: darkslategrey;
+    padding: 30px;
+    font-weight: bold;
+}
+
+#html h1 {
+    background-color: rgb(211, 115, 6);
+}
+
+#css h1 {
+    background-color: dodgerblue;
+}
+
+footer {
+    background-color: darkslategrey;
+    color: white;
+    padding: 30px
+}
+
+h2 {
+    text-align: center;
+    padding: 1px;
+    font-weight: normal;
+}
+
+article {
+    border:solid;
+    border-color: darkslategrey;
+    border-width: 5px;
+    padding: 10px;
+    background-color: floralwhite;
+    display: inline-block;
+    width:600px;
+    margin: 20px;
+
+}
+
+article.wide {
+    width: 1000px;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+  td {
+      padding: 5px;
+  }
